@@ -23,6 +23,7 @@ public class Application extends WebMvcConfigurerAdapter {
     @RequestMapping("/")
     String home() {
         //update a row coder
+        //修改一下看看
         return "redirect:countries";
     }
 }
